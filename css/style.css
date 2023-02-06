@@ -331,4 +331,47 @@ header img{
         width: 30%;
     }
 }
+/* article Aboutus */
+
+#aboutus img{
+    border-radius: 50%;
+    width: 50%;
+    margin-top: 1.25rem;
+    position: relative;
+}
+#aboutus h3{
+    color: var(--purple);
+    font-size: 40px;
+    margin: 40px 0;
+}
+
+#aboutus .btn{
+    margin-top: 20px;
+    padding: 5px 20px;
+    border-radius: 30px;
+    color: white;
+    background-color: var(--purple);
+    font-size: 16px;
+}
+
+@media screen and (min-width:768px) {
+    #aboutus .container{
+        padding: 50px;
+    }
+     #aboutus .col-left{
+    width: 70%;
+    padding: 0 60px;
+}
+#aboutus .col-right{
+    width: 30%;
+    margin-top: 1.875rem;
+} 
+#aboutus .col-right h3{
+    font-size: 20px;
+} 
+#aboutus img{
+    width: 100%;
+}
+}
+
 /* Footer */
