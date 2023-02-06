@@ -1,0 +1,320 @@
+#description .container {
+    flex-wrap: wrap;
+    padding-top: 8.25rem;
+    justify-content: space-between;
+}
+
+#description .col {
+    width: 32%;
+    background-color: var(--blue-light);
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+#description .col.big {
+    width: 66%;
+    display: flex;
+}
+
+#description h2 {
+    font-size: 1.5rem;
+    margin-top: 30px;
+    color: var(--blue);
+}
+
+#description .btn {
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 8px 40px;
+    background-color: var(--blue);
+    color: white;
+}
+
+#description img {
+    align-self: flex-end;
+    margin-top: 30px;
+    transform: translateY(1rem);
+}
+
+@media screen and (max-width:768px) {
+    #description .col.big {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:480px) {
+    #description .col {
+        width: 100%;
+    }
+
+    #description .col.big {
+        flex-grow: 2;
+    }
+}
+
+/* Section Planning */
+#planning {
+    background-color: var(--purple);
+}
+
+#planning .container-sm {
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+#planning .col {
+    width: 50%;
+}
+
+#planning .card {
+    background-color: white;
+    border-radius: 1.25rem;
+    padding: 16px;
+}
+
+#planning .col.right .card img {
+    width: 50%;
+}
+
+#planning .col.left img {
+    width: 80%;
+    margin: 50px 0;
+}
+
+#planning .col.left {
+    color: white;
+}
+
+#planning .col.right {
+    align-items: flex-end;
+}
+
+#planning .btn {
+    padding: 12px;
+    border-radius: 50%;
+    background-color: var(--purple);
+    font-size: 16px;
+}
+
+#planning h2 {
+    margin: 30px 0;
+}
+
+@media screen and (max-width:768px) {
+    #planning .col {
+        width: 100%;
+    }
+
+    #planning img {
+        width: 100%;
+    }
+}
+
+/* Section Testimonials */
+#testimonials h2 {
+    color: var(--purple);
+    font-size: 35px;
+}
+
+#testimonials .title>* {
+    margin: 25px 0;
+}
+
+#testimonials .card p::before {
+    content: "\f10d";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+}
+
+#testimonials .card p::after {
+    content: "\f10e";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+}
+
+#testimonials .card img {
+    border-radius: 50%;
+}
+
+#testimonials .card {
+    background-color: var(--purple);
+    border-radius: 40px;
+    padding: 1.5625rem;
+    margin-bottom: 50px;
+    align-items: center;
+
+}
+
+#testimonials img {
+    padding: 20px;
+}
+
+#testimonials .name {
+    font-size: 20px;
+}
+
+#testimonials h4 {
+    margin-top: 10px;
+}
+
+#testimonials .card p,
+#testimonials h4 {
+    color: white;
+
+}
+
+@media screen and (max-width:768px) {
+
+    #testimonials .card {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+}
+
+/* Section Benefits */
+#benefits {
+    background-color: var(--purple);
+}
+
+#benefits h3 {
+    color: var(--purple);
+}
+
+#benefits .title h2 {
+    color: white;
+    font-size: 40px;
+    padding: 30px 0;
+}
+
+#benefits .col h2 {
+    color: var(--purple);
+    font-size: 40px;
+}
+
+#benefits .col h3 {
+    color: var(--purple);
+    font-size: 25px;
+    margin: 20px 0;
+}
+
+#benefits .col {
+    background-color: white;
+    width: 30%;
+    border-radius: 25px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#benefits .btn {
+    margin-top: 20px;
+    padding: 15px 60px;
+    border-radius: 30px;
+    color: white;
+    background-color: var(--purple);
+    font-size: 16px;
+}
+
+@media screen and (min-width:768px) {
+    #benefits .col {
+        width: 48%;
+    }
+}
+
+@media screen and (min-width:992px) {
+    #benefits .col {
+        width: 30%;
+    }
+}
+
+/* article Aboutus */
+#aboutus {
+    padding: 20px 0;
+}
+
+#aboutus img {
+    border-radius: 50%;
+    width: 50%;
+    padding-top: 2.60rem;
+    position: relative;
+}
+
+#aboutus h3 {
+    color: var(--purple);
+    font-size: 40px;
+    margin: 40px 0;
+}
+
+#aboutus .btn {
+    margin-top: 20px;
+    padding: 5px 20px;
+    border-radius: 30px;
+    color: white;
+    background-color: var(--purple);
+    font-size: 16px;
+}
+
+@media screen and (min-width:768px) {
+    #aboutus .container {
+        padding: 50px;
+    }
+
+    #aboutus .col-left {
+        width: 70%;
+        padding: 0 30px;
+    }
+
+    #aboutus .col-right {
+        width: 30%;
+        margin-top: 1.875rem;
+    }
+
+    #aboutus .col-right h3 {
+        font-size: 20px;
+    }
+
+    #aboutus img {
+        width: 100%;
+    }
+}
+
+/* Section Get Started */
+#getstarted {
+    background-color: var(--purple);
+}
+
+#getstarted h4 {
+    color: #afaceb;
+    font-size: 25px;
+    padding: 20px 0;
+}
+
+#getstarted h3,
+#getstarted p {
+    color: white;
+    font-size: 20px;
+}
+
+#getstarted h3 {
+    font-size: 30px;
+}
+
+#getstarted h2 {
+    color: var(--gold);
+    font-size: 60px;
+    padding: 30px 0;
+}
+
+#getstarted .btn {
+    margin-top: 30px;
+    padding: 20px 60px;
+    border-radius: 30px;
+    color: var(--purple);
+    background-color: white;
+    font-size: 30px;
+}
+
+#getstarted h5 {
+    color: white;
+    padding: 30px 0;
+}

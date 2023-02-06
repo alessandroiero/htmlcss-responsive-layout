@@ -1,0 +1,48 @@
+/* Header */
+header {
+    padding: 1rem;
+    background-color: var(--blue);
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header .container {
+    align-items: center;
+}
+
+.header-right {
+    font-size: 1.5625rem;
+}
+
+header nav ul {
+    gap: 15px;
+    align-items: center;
+}
+
+header .btn.white {
+    border-radius: 30px;
+}
+
+header .btn.white {
+    margin-left: 1.5rem;
+}
+
+header img {
+    vertical-align: middle;
+}
+
+@media screen and (min-width:768px) {
+    header .header-right {
+        display: none;
+    }
+}
+
+@media screen and (max-width:768px) {
+    header .nav-bar {
+        display: none;
+    }
+}
